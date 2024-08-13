@@ -1,45 +1,18 @@
-@import "../../node_modules/bootstrap/dist/css/bootstrap.css"; /*bootstrap*/
-/*background-color, color arrow*/
-/*background-color arrow*/
-/*background-color arrow*/
-/*block behind map*/
-/*$color-jordyblue: #82b9ef;
-$color-isabelline: #eeeded;
-$color-buff: #f1e06a;
-$color-vanilla: #f2e49f;
-$color-lightochre: #e87554;
-$color-pastelpink: #f2b2a0;
-$color-shamrockgreen: #4ca866;
-$color-turquoisegreen: #93c1a0;
-$color-pastelgreen: #bddfc7;
-$color-bluejeans: #5fa5ea;*/
-/*base variables*/
-/*Navigation*/
-/*components buttons*/
-body {
-  font-family: "PT Mono", monospace;
+/* Error: Undefined variable.
+ *    ,
+ * 31 |     background-color: $color-shamrockgreen;
+ *    |                       ^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   assets\sass\components\_nav.scss 31:23  @import
+ *   assets\sass\main.scss 4:9               root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 31 \2502      background-color: $color-shamrockgreen;\d\a    \2502                        ^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   assets\\sass\\components\\_nav.scss 31:23  @import\a   assets\\sass\\main.scss 4:9               root stylesheet";
 }
-
-.navigation__logo {
-  width: 3vw;
-}
-
-.navigation__link {
-  color: #a2a2a2;
-  text-decoration: none;
-  font-size: 1vw;
-}
-
-.navigation__link:hover {
-  color: #000000;
-}
-
-/*components nav*/
-body {
-  font-family: "PT Mono", monospace;
-}
-
-/*sections principalblock*/
-/*sections secundaryblock*/
-
-/*# sourceMappingURL=styles.css.map */
