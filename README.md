@@ -12,7 +12,7 @@ font-weight: 300;
 font-style: normal;
 }
 
-# Colores
+# Colors
 white:#ffffff; /*background-color, color arrow*/
 isabelline: #eeeded;
 gray: #d1d1d1;
