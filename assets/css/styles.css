@@ -1,18 +1,68 @@
-/* Error: Undefined variable.
- *    ,
- * 31 |     background-color: $color-shamrockgreen;
- *    |                       ^^^^^^^^^^^^^^^^^^^^
- *    '
- *   assets\sass\components\_nav.scss 31:23  @import
- *   assets\sass\main.scss 4:9               root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 31 \2502      background-color: $color-shamrockgreen;\d\a    \2502                        ^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   assets\\sass\\components\\_nav.scss 31:23  @import\a   assets\\sass\\main.scss 4:9               root stylesheet";
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css"; /*bootstrap*/
+/*$color-jordyblue: #82b9ef;
+$color-isabelline: #eeeded;
+$color-buff: #f1e06a;
+$color-vanilla: #f2e49f;
+$color-lightochre: #e87554;
+$color-pastelpink: #f2b2a0;
+$color-pastelgreen: #bddfc7;
+$color-bluejeans: #5fa5ea;*/
+/*base variables*/
+/*Navigation*/
+/*components buttons*/
+body {
+  font-family: "PT Mono", monospace;
 }
+
+.navigation__logo {
+  width: 3vw;
+}
+
+.navigation__link {
+  color: #a2a2a2;
+  text-decoration: none;
+  font-size: 1vw;
+}
+
+.navigation__link:hover {
+  color: #000000;
+}
+
+.navigation__button {
+  width: 100%;
+  height: 3vw;
+  font-size: 1vw;
+}
+
+.navigation__button--1 {
+  background-color: #ffffff;
+  border-width: 1px;
+  border-color: #d1d1d1;
+  color: #d1d1d1;
+}
+
+.navigation__button--1:hover {
+  border-color: #000000;
+  color: #000000;
+}
+
+.navigation__button--2 {
+  background-color: #4ca866;
+  border: none;
+  color: #ffffff;
+}
+
+.navigation__button--2:hover {
+  background-color: #93c1a0;
+  color: #454545;
+}
+
+/*components nav*/
+body {
+  font-family: "PT Mono", monospace;
+}
+
+/*sections principalblock*/
+/*sections secundaryblock*/
+
+/*# sourceMappingURL=styles.css.map */
