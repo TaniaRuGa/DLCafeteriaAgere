@@ -1,3 +1,19 @@
 body{
     font-family: "PT Mono", monospace;
 }
+.navigation__logo{
+    width: 3vw;
+}
+.navigation__link{
+    color: $color-quicksilver;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.navigation__link:hover{
+    color: $color-black;
+}
+.navigation__button{}
+.navigation__button--1{}
+.navigation__button--1:hover{}
+.navigation__button--2{}
+.navigation__button--2:hover{}
