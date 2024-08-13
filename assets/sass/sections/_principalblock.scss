@@ -1,3 +1,4 @@
+/*Principal block*/
 body{
     font-family: "PT Mono", monospace;
 }
@@ -49,5 +50,10 @@ body{
 .title_header{
     font-size: 4vw;
     margin-left: 5vw;
+    line-height: 1.1;
 }
-.subtitle_header{}
+.subtitle_header{
+    font-size: 1.6vw;
+    margin-left: 5.9vw;
+    letter-spacing: normal;
+}
