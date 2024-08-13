@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/main.scss"],"names":[],"mappings":"AAAQ","file":"styles.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/main.scss","../sass/base/_variables.scss","../sass/components/_buttons.scss","../sass/components/_nav.scss","../sass/sections/_principalblock.scss"],"names":[],"mappings":"AAAQ;ACAc;AAEA;AACC;AACO;AAK9B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;ADR+B;AED/B;AFE8B;AAItB;AGNR;EACI;;;AHEsB;AIH1B;EACI;;;AJG+B;AACA","file":"styles.css"}

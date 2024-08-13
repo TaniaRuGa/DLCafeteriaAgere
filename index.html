@@ -3,48 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/arrow-right?f=classic&s=solid"><!--Icon arrow-->
+    <script src="https://kit.fontawesome.com/ce06df55a0.js" crossorigin="anonymous"></script><!--Kit Fontawesome--> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> <!--Fuente Roboto-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> <!--Font Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet"><!--Fuente PT Mono Regular-->
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet"><!--Font PT Mono Regular-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Cafeteria Agere</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md fixed-top crate-nav"> <!--NavBar-->
-            <div class="container-fluid navColor mt-2">
-                <div class="logo ms-5">
-                    <img class="logo__image mb-1" src="" alt="">
-                    <a class="navbar-brand me-auto logo__title" href="#"></a>
+        <nav><!--Navigation-->
+            <div class="container-fluid navigation">
+                <div class="row align-items-center">
+                    <div class="col-1 text-center my-3"><img class="navigation__logo" src="assets/img/logo.png" alt="Logo principal"></div>
+                    <div class="col-3"><a class="navigation__link" href="#"> Acerca de </a><a class="navigation__link ms-5" href="#"> Tienda </a></div>
+                    <div class="col-4"></div>
+                    <div class="col-2"><button class="navigation__button navigation__button--1" type="button">Iniciar sesión</button></div>
+                    <div class="col-2"><button class="navigation__button navigation__button--2" type="button">Registrarte</button></div>          
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto px-5">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="" aria-current="page" href=""></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="h2" href=""></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </div>        
         </nav>
     </header>
 
-    <section></section>
+    <section><!--Principal block-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8 d-flex justify-content-end align-items-end p-0">
+                    <img class="image_header" src="assets/img/img-1.png" alt="Imagen principal café agere">
+                    <div class="chart_white align-items-center justify-content-center">
+                        <div class="col_flex">
+                            <h1 class="quantity_varieties">+50</h1>
+                            <p class="title_varieties">Variedades de <br>café</p>
+                        </div>
+                        <div class="col_flex m-4">
+                            <h1 class="quantity_varieties">+20</h1>
+                            <p class="title_varieties">Países <br>diferentes</p>
+                        </div>
+                        <div class="col_flex">
+                            <h1 class="quantity_varieties">+1000</h1>
+                            <p class="title_varieties">Accesorios para <br>hacer el mejor café</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col_charto_yellow p-0">
+                    <p class="title_header mt-4">Café Agere</p>
+                    <p class="subtitle_header">Coffee Shop</p>
+                    <div class="chart_yellow"></div>
+                    <div class="chart_orange"><i class="fa-solid fa-arrow-right icono_flecha" style="color: #ffffff;"></i></div>
+                    
+                </div>
+            </div>
+        </div> 
+        
+    </section>
 
     <section></section>
 
 
     <main>
-        <div class="mt-5"> <!--Formulario-->
+        <div class="mt-5"> <!--Form-->
             <h2 class="form__text mb-4"> Regístrate ¡Es gratis! </h2>
             <div class="form__input"><input class="input__crate" placeholder="Nombre" type="Nombre"></div>
             <div class="form__input"><input class="input__crate" placeholder="Apellido" type="Apellido"></div>
@@ -70,7 +93,7 @@
                 <button class="button__subscribe">Suscríbete</button>
             </div>
         </div>
-        <hr class="lineahoriz"><!--Línea horizontal entre secciones-->
+        <hr class="lineahoriz"><!--Line horizontal between sections-->
     </main>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script><!--node_modules bootstrap-->

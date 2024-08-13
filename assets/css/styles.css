@@ -1,9 +1,9 @@
-/* Error: expected more input.
+/* Error: Can't find stylesheet to import.
  *   ,
- * 2 | @import 
- *   |         ^
+ * 7 | @import "fontawesome-";
+ *   |         ^^^^^^^^^^^^^^
  *   '
- *   assets\sass\main.scss 2:9  root stylesheet */
+ *   assets\sass\main.scss 7:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected more input.\a   \2577 \a 2 \2502  @import \a   \2502          ^\a   \2575 \a   assets\\sass\\main.scss 2:9  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import \"fontawesome-\";\a   \2502          ^^^^^^^^^^^^^^\a   \2575 \a   assets\\sass\\main.scss 7:9  root stylesheet";
 }
