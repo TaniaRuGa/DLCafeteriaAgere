@@ -1,6 +1,6 @@
 # Café Agere
 
-###Tipografías utilizadas:
+### Tipografías utilizadas:
 
 ## PT Mono Regular
 .pt-mono-regular {
