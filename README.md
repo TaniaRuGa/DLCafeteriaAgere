@@ -1,18 +1,22 @@
-# PT Mono Regular
+# Café Agere
+
+###Tipografías utilizadas:
+
+## PT Mono Regular
 .pt-mono-regular {
 font-family: "PT Mono", monospace;
 font-weight: 400;
 font-style: normal;
 }
 
-# Roboto Light
+## Roboto Light
 .roboto-light {
 font-family: "Roboto", sans-serif;
 font-weight: 300;
 font-style: normal;
 }
 
-# Colors
+## Colores
 $color-white:#ffffff; /*background-color, color arrow*/
 $color-gray: #d1d1d1;
 $color-coral: #e4c630;/*background-color arrow*/
